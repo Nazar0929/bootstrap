@@ -2,6 +2,42 @@ body {
     background-color: black;
 }
 
+body {
+    font-family: "";
+    color: var();
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+}
+h1, h2, h3, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(54, 54, 54);
+    border-radius: 50px;
+}
+
+::selection {
+    background-color: gray;
+    color: white;
+}
+
+
 .navbar-expand-lg {
     padding-top: 0px; 
     padding-bottom: 0px;
@@ -14,11 +50,287 @@ body {
 }
 
 .nav-link {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: gray;
+}
+
+.nav-link.disabled {
+    color: white;
+}
+
+
+
+.navbar-nav .nav-link.active {
+    color: white;
 }
 
 .texxt {
     color: white;
     text-align: center;
     padding-top: 60px;
+    width: 100%;
+}
+
+.bst {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.boxing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.3px;
+    justify-content: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+.card-body {
+    width: 100%;
+    padding: 10px;
+}
+
+.card {
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+@media screen and (min-width: 120px){
+    .sss {
+        display: none;
+    }
+
+    .list-pagess {
+        display: flex;
+        gap: 45px;
+        
+    
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .card {
+        width: 300px;
+    }
+
+    .image {
+        width: 500px;
+    }
+
+    .card-img-top {
+        width: 300px;
+    }
+
+    .wraps {
+        padding-bottom: 90px;
+        padding-top: 90px;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .ff {
+        display: block;
+    }
+    .list-pagess {
+        display: flex;
+        gap: 175px;
+    }
+
+    @media screen and (min-width: 1200px){
+        .card {
+            width: 257px;
+            margin-top: 40px;
+        
+        }
+        
+    .sss {
+        display: block;
+    }
+
+        
+    .image {
+        width: 500px;
+    }
+        .card-img-top {
+            width: 255px;
+            height: 100%;
+        }
+        .boxing {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 29.3px;
+            justify-content: center;
+        }
+
+        .list-pagess {
+            display: flex;
+            gap: 175px;
+        
+        
+        }
+
+        @media screen and (min-width: 1400px){
+            .card {
+                width: 300px;
+                margin-top: 40px;
+            
+            }
+            .card-img-top {
+                width: 300px;
+                height: 100%;
+            }
+            .boxing {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 29.3px;
+                justify-content: center;
+            }
+    }
+
+    }
+}
+
+.carousel.slide {
+    width: 100%;
+}
+
+
+
+.image {
+    width: 100%;
+}
+
+.headt {
+    color: white;
+    font-size: 36px;
+}
+
+.p-text {
+    color: aliceblue;
+}
+
+.wraps {
+    padding-bottom: 130px;
+    padding-top: 90px;
+
+}
+
+
+
+
+
+.footer {
+    padding-bottom: 80px;
+}
+
+.text-footer {
+    margin-top: 15px;
+    width: 326px;
+    color: #ffffff;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.footer-img {
+    display: flex;
+    gap: 40px;
+    margin-top: 31px;
+}
+
+.footer-contact {
+    display: flex;
+}
+
+
+
+.item {
+    margin-left: 83px;
+}
+
+
+
+
+
+
+
+.pages {
+    margin-bottom: 21px;
+    color: #60aaff;
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.5px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.wrap-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.link {
+    color: #ffffff;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.section-last {
+    border-top: 2px solid #E5E5E5;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.list-copy {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.p{
+    color: #ffffff;
+    text-align: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.b {
+    color: #CDA274;
+    text-align: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.ds {
+    margin-left: auto;
 }
